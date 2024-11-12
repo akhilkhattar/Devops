@@ -10,4 +10,4 @@ jobs:
         - name: list files
           run: ls
         - name: Read file
-          run: cat appsec.yaml
+          run: cat taskdef.json
