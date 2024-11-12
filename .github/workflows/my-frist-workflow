@@ -8,7 +8,9 @@ jobs:
         steps:
         - name: Welcome message
           run: echo "My first Github Actions Job"
+
         - name: list files
           run: ls
+
         - name: Read file
-          run: cat taskdef.json
+          run: cat appspec.yaml
